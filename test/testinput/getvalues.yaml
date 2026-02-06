@@ -29,3 +29,5 @@ locations:
         - 1.5
         - 2.1
 tolerance interpolation: 3.0e-4
+tolerance linearity: 1.0e-7
+tolerance AD: 1.0e-6

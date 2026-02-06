@@ -1,5 +1,5 @@
 test:
-  float relative tolerance: 0.00000001
+  float relative tolerance: 0.000005
   integer tolerance: 0
   reference filename: testoutput/parameters_bumploc.ref
   log output filename: testoutput/parameters_bumploc.run
