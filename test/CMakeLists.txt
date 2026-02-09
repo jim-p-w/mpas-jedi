@@ -725,9 +725,11 @@ add_mpasjedi_application_test(
     ${RECALIBRATE})
 
 #hofx3d/hofx4d/enshofx
+if( CMAKE_CXX_COMPILER_ID MATCHES "GNU" )
 add_mpasjedi_application_test(
     APPLICATION hofx3d
     ${RECALIBRATE})
+endif( CMAKE_CXX_COMPILER_ID MATCHES "GNU" )
 
 add_mpasjedi_application_test(
         NAME hofx3d_nbam

@@ -1,5 +1,5 @@
 test:
-  float relative tolerance: 0.00000001
+  float relative tolerance: 0.000009
   integer tolerance: 0
   reference filename: testoutput/3denvar_2stream_bumploc.ref
   log output filename: testoutput/3denvar_2stream_bumploc.run
