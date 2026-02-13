@@ -1,7 +1,7 @@
-CostJo   : Nonlinear Jo(AMSUA-NOAA19) = 5.2111151934311272e+02, nobs = 131, Jo/n = 3.9779505293367383e+00, err = 1.3306241503384197e+01
+CostJo   : Nonlinear Jo(AMSUA-NOAA19) = 5.2111172243262627e+02, nobs = 131, Jo/n = 3.9779520796383685e+00, err = 1.3306240751953576e+01
 CostJb   : Nonlinear Jb = 0.0000000000000000e+00
-CostFunction: Nonlinear J = 5.2111151934311272e+02
-DRPCGMinimizer: reduction in residual norm = 2.5376353019217456e-11
+CostFunction: Nonlinear J = 5.2111172243262627e+02
+DRPCGMinimizer: reduction in residual norm = 2.5376177555887364e-11
 CostFunction::addIncrement: Analysis: 
   Valid time: 2018-04-15T00:00:00Z
   Resolution: nCellsGlobal = 2562, nFields = 30
@@ -37,19 +37,19 @@ Fld=29  Min=0.0000000000000000e+00, Max=1.1831218143925071e-03, RMS=3.4555992897
 Fld=30  Min=0.0000000000000000e+00, Max=1.0000000000000000e+00, RMS=2.5226026773452759e-01 : cldfrac
 Obs bias coefficients: 
 ---------------------------------------------------------------
-            constant:  Min= -0.6496350432424151,  Max= 1.1470423735962614,  Norm= 1.6645549921999447
-   lapseRate_order_2:  Min= 0.0051324943804863,  Max= 30.0119229241529517,  Norm= 30.0590897558917156
-           lapseRate:  Min= -5.8196545502955646,  Max= -0.1585576741488790,  Norm= 5.8900391655590099
-  emissivityJacobian:  Min= -0.0066403825291555,  Max= 0.0259811619607420,  Norm= 0.0280047755089311
-sensorScanAngle_order_4:  Min= -9.1034928735752985,  Max= 1.2587704663740920,  Norm= 12.4686744517668160
-sensorScanAngle_order_3:  Min= -1.2912724231212769,  Max= 2.2734040359225260,  Norm= 2.8766034052326459
-sensorScanAngle_order_2:  Min= -4.9091365660255963,  Max= 3.5175774078222513,  Norm= 6.6353192039095346
-     sensorScanAngle:  Min= -0.7550498076509957,  Max= -0.1914031562352133,  Norm= 1.1205101339013133
+            constant:  Min= -0.6496350432488405,  Max= 1.1470423739226101,  Norm= 1.6645549986723533
+   lapseRate_order_2:  Min= 0.0051323952443786,  Max= 30.0119464772499107,  Norm= 30.0591133218027551
+           lapseRate:  Min= -5.8196529158895789,  Max= -0.1585576741773971,  Norm= 5.8900375460212961
+  emissivityJacobian:  Min= -0.0066403618481571,  Max= 0.0259811609756530,  Norm= 0.0280047695771267
+sensorScanAngle_order_4:  Min= -9.1034928735752949,  Max= 1.2587704675547251,  Norm= 12.4686744447066609
+sensorScanAngle_order_3:  Min= -1.2912724720430744,  Max= 2.2734040368389445,  Norm= 2.8766034292767158
+sensorScanAngle_order_2:  Min= -4.9091365660830153,  Max= 3.5175774099665991,  Norm= 6.6353192125660891
+     sensorScanAngle:  Min= -0.7550498076506873,  Max= -0.1914031562387636,  Norm= 1.1205101541438625
 ---------------------------------------------------------------
-CostJo   : Nonlinear Jo(AMSUA-NOAA19) = 395.0434919128898628, nobs = 131, Jo/n = 3.0155991749075564, err = 13.3062415033841965
-CostJb   : Nonlinear Jb = 16.2458836599949592
-CostFunction: Nonlinear J = 411.2893755728848078
-DRPCGMinimizer: reduction in residual norm = 0.0000000000379863
+CostJo   : Nonlinear Jo(AMSUA-NOAA19) = 395.0434243984240652, nobs = 131, Jo/n = 3.0155986595299549, err = 13.3062407519535757
+CostJb   : Nonlinear Jb = 16.2458619590858788
+CostFunction: Nonlinear J = 411.2892863575099227
+DRPCGMinimizer: reduction in residual norm = 0.0000000000379850
 CostFunction::addIncrement: Analysis: 
   Valid time: 2018-04-15T00:00:00Z
   Resolution: nCellsGlobal = 2562, nFields = 30
@@ -85,15 +85,15 @@ Fld=29  Min=0.0000000000000000, Max=0.0011831218143925, RMS=0.0000345559928974 :
 Fld=30  Min=0.0000000000000000, Max=1.0000000000000000, RMS=0.2522602677345276 : cldfrac
 Obs bias coefficients: 
 ---------------------------------------------------------------
-            constant:  Min= -0.6496350665241163,  Max= 1.1470346887464440,  Norm= 1.6645094800525133
-   lapseRate_order_2:  Min= 0.0056236503340183,  Max= 30.0503356291714603,  Norm= 30.0973943676288584
-           lapseRate:  Min= -5.8263578149780759,  Max= -0.1585577734459817,  Norm= 5.8966300136224410
-  emissivityJacobian:  Min= -0.0067682268324413,  Max= 0.0259774811076234,  Norm= 0.0280365489300517
-sensorScanAngle_order_4:  Min= -9.1034928735406080,  Max= 1.2587788547219154,  Norm= 12.4686603488131915
-sensorScanAngle_order_3:  Min= -1.2905198379145160,  Max= 2.2733936949288212,  Norm= 2.8762399370690974
-sensorScanAngle_order_2:  Min= -4.9091241899122871,  Max= 3.5175539453007492,  Norm= 6.6353911084798902
-     sensorScanAngle:  Min= -0.7550498088853295,  Max= -0.1914031690996056,  Norm= 1.1204031223987614
+            constant:  Min= -0.6496350665241807,  Max= 1.1470346897614752,  Norm= 1.6645094870180177
+   lapseRate_order_2:  Min= 0.0056235439269675,  Max= 30.0503590761904427,  Norm= 30.0974178221633082
+           lapseRate:  Min= -5.8263563085275543,  Max= -0.1585577734464661,  Norm= 5.8966285177652553
+  emissivityJacobian:  Min= -0.0067682204846074,  Max= 0.0259774810977694,  Norm= 0.0280365468099290
+sensorScanAngle_order_4:  Min= -9.1034928735405369,  Max= 1.2587788584265351,  Norm= 12.4686603453881695
+sensorScanAngle_order_3:  Min= -1.2905198481885185,  Max= 2.2733936980162230,  Norm= 2.8762399498519762
+sensorScanAngle_order_2:  Min= -4.9091241902932765,  Max= 3.5175539484453697,  Norm= 6.6353911056900179
+     sensorScanAngle:  Min= -0.7550498088866396,  Max= -0.1914031690996412,  Norm= 1.1204031258795686
 ---------------------------------------------------------------
-CostJo   : Nonlinear Jo(AMSUA-NOAA19) = 397.0194353769784357, nobs = 131, Jo/n = 3.0306827128013620, err = 13.3062415033841965
-CostJb   : Nonlinear Jb = 16.3182730678819112
-CostFunction: Nonlinear J = 413.3377084448603682
+CostJo   : Nonlinear Jo(AMSUA-NOAA19) = 397.0194571739223761, nobs = 131, Jo/n = 3.0306828791902469, err = 13.3062407519535757
+CostJb   : Nonlinear Jb = 16.3182569797847492
+CostFunction: Nonlinear J = 413.3377141537071111
