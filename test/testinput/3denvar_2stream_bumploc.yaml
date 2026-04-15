@@ -60,7 +60,7 @@ cost function:
         active variables: *incvars
         read:
           io:
-            files prefix: Data/bump/mpas_parametersbump_loc
+            files prefix: Data/bump/mpas_bumploc
           drivers:
             multivariate strategy: duplicated
             read local nicas: true
