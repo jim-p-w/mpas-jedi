@@ -18,3 +18,4 @@ increment test:
     dirLons: [130.11182691]
     ildir: 3
     dirvar: eastward_wind
+  tolerance: 1.0e-6

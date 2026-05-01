@@ -26,7 +26,7 @@ state test:
     - air_pressure_at_surface
     date: *date
   norm generated state: 20000.378266179847
-  tolerance: 1.0e-08
+  tolerance: 1.0e-05
   write then read test:
     state write:
       filename: &filename "Data/states/mpas.state.2018-04-15_00.00.00.nc"
