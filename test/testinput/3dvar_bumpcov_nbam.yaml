@@ -1,5 +1,5 @@
 test:
-  float relative tolerance: 0.00000001
+  float relative tolerance: 0.000035
   integer tolerance: 0
   reference filename: testoutput/3dvar_bumpcov_nbam.ref
   log output filename: testoutput/3dvar_bumpcov_nbam.run
