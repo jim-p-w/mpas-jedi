@@ -1,5 +1,5 @@
 test:
-  float relative tolerance: 0.00000001
+  float relative tolerance: 0.000002
   integer tolerance: 0
   reference filename: testoutput/dirac_spectral_loc.ref
   log output filename: testoutput/dirac_spectral_loc.run

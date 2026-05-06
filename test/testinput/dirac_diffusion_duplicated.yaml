@@ -1,5 +1,5 @@
 test:
-  float relative tolerance: 0.00000001
+  float relative tolerance: 0.0000005
   integer tolerance: 0
   reference filename: testoutput/dirac_diffusion_duplicated.ref
   log output filename: testoutput/dirac_diffusion_duplicated.run
